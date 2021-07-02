@@ -12,11 +12,19 @@
 <body>
     
     <div class="container">
-        <div class="timeshift mt-3">
-            <button><div class="twofour selectedtimeformat"><h5>24 hours</h5></div></button>
-            <div class=space"></div>
-            <button><div class="onetwo unselectedformat"><h5>AP/PM</h5></div></button>
+        <div class="navtop">
+            <div class="timeshift mt-3">
+                <button><div class="twofour selectedtimeformat" id="change"><h5>24 hours</h5></div></button>
+                <div class=space"></div>
+                <button><div class="onetwo unselectedformat" id="change"><h5>12 hours</h5></div></button>
+            </div>
+            <div class="siftsift mt-3">
+                <button><div class="cl selectedtimeformat" id="change"><h5><a class="seltf">Clock</a></h5></div></button>
+                <button><div class="tm unselectedformat" id="change"><h5><a class="unself" href="https://manavparikh01.github.io/Timer/">Timer</a></h5></div></button>
+                <button><div class="st unselectedformat" id="change"><h5><a class="unself">Stopwatch</a></h5></div></button>
+            </div>
         </div>
+        
         <!--<h2 class="text-center">CLOCK</h2>-->
         <div class="row">
             <div class="col-6 offset-3" id="clock">

@@ -89,9 +89,30 @@ button {
 	flex-direction: row;
 }
 
+.navtop {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.siftsift {
+	align-items: center;
+	justify-content: center;
+	max-width: 275px;
+	border: 1px solid grey;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+}
+
 .space {
 	width: 2.5px;
 	background-color: beige;
+}
+
+#change {
+	background-color: beige;
+	padding: 10px;
 }
 
 .twofour {
@@ -138,4 +159,21 @@ button {
 .unselectedformat {
 	color: grey;
 	background-color: beige;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: darkgrey;
+}
+
+.seltf {
+	color: black;
+}
+
+.unself {
+	color: grey;
 }
